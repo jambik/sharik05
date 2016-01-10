@@ -154,7 +154,7 @@ class Pages extends Base
 			}
 		}	while(true);
 			
-		return parent::ValidateItem(&$invalidItem);
+		return parent::ValidateItem($invalidItem);
 	}
 
 }

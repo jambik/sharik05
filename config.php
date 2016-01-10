@@ -4,10 +4,10 @@
 	{
 		// Mysql - remote
 		$dbType = "mysqli";
-		$dbHost = "sharik05.mysql";
-		$dbName = "sharik05_db";
-		$dbUser = "sharik05_mysql";
-		$dbPass = "sk7htz3l";
+		$dbHost = "localhost";
+		$dbName = "sharik05";
+		$dbUser = "sharik05";
+		$dbPass = "5BRNwn76hchS8yGT";
 		
 		$config["folder"] = "/";
 	}
