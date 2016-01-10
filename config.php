@@ -1,7 +1,7 @@
 <?php
 
-	if(strpos($_SERVER['HTTP_HOST'], ".ru"))
-	{
+//	if(strpos($_SERVER['HTTP_HOST'], ".ru"))
+//	{
 		// Mysql - remote
 		$dbType = "mysqli";
 		$dbHost = "localhost";
@@ -10,18 +10,18 @@
 		$dbPass = "5BRNwn76hchS8yGT";
 		
 		$config["folder"] = "/";
-	}
-	else
-	{
-		// Mysql - local
-		$dbType = "mysqli";
-		$dbHost = "localhost";
-		$dbName = "sharik05";
-		$dbUser = "root";
-		$dbPass = "root";
-		
-		$config["folder"] = "/";
-	}
+//	}
+//	else
+//	{
+//		// Mysql - local
+//		$dbType = "mysqli";
+//		$dbHost = "localhost";
+//		$dbName = "sharik05";
+//		$dbUser = "root";
+//		$dbPass = "root";
+//
+//		$config["folder"] = "/";
+//	}
 	
 	$config["admin_group"][1] = "Администратор";
 	$config["admin_group"][2] = "Модератор";
